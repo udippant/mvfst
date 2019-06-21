@@ -33,3 +33,5 @@ target_link_libraries(
   ${LIBGMOCK_LIBRARIES}
   ${LIBGTEST_LIBRARIES}
 )
+
+add_dependencies(echo googletest)
